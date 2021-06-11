@@ -2,16 +2,13 @@
 
 # This script creates symlinks from the home directory to any desired dotfile in ~dotfiles
 
-
 # Variables
-
 dir=~/dotfiles
 olddir=~/dotfiles_old
 files=".bashrc .vimrc tmux.conf"
 
-
 # backup dotfiles to dotfiles_old
-echo "Creating $olddir for backup of an existing dotfiles in ~"
+echo "Creating $olddir for backup of existing dotfiles in ~"
 mkdir -p $olddir
 echo "...done"
 
