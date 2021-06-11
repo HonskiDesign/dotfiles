@@ -47,9 +47,7 @@ call plug#begin('~/.vim/plugged')
 
 "Plug 'gabrielelana/vim-markdown'
 "Plug 'markvincze/panda-vim'
-Plug 'sonph/onehalf', { 'rtp':'vin' }
-
-
+Plug 'sonph/onehalf', { 'rtp':'vim' }
 
 call plug#end()
 
