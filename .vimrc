@@ -37,10 +37,13 @@ set cursorline
 " plugin options
 colorscheme onedark
 set t_Co=256
+let g:python_highlight_all=1
 
 " plugin manager
 call plug#begin('~/.vim/plugged')
 
+Plug 'sheerun/vim-polyglot'
+Plug 'vim-python/python-syntax'
 "Plug 'gabrielelana/vim-markdown'
 
 call plug#end()
