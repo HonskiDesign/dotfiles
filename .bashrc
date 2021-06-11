@@ -1,7 +1,20 @@
-# ~/.bashrc: executed by bash(1) for non-login shells.
-# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
-# for examples
+# Honski Design bashrc
 
+# ------------------------ environment variables -----------------------
+
+export DOTFILES="$HOME/dotfiles"
+export SCRIPTS="$HOME/scripts"
+
+
+# ------------------------------- aliases ------------------------------
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+alias chmox='chmod +x'
+alias dot='cd $DOTFILES'
+alias scri'cd $SCRIPTS'
+
+# --------------------------- bash defaults ----------------------------
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
@@ -9,7 +22,6 @@ case $- in
 esac
 
 # don't put duplicate lines or lines starting with space in the history.
-# See bash(1) for more options
 HISTCONTROL=ignoreboth
 
 # append to the history file, don't overwrite it
@@ -20,7 +32,6 @@ HISTSIZE=1000
 HISTFILESIZE=2000
 
 # check the window size after each command and, if necessary,
-# update the values of LINES and COLUMNS.
 shopt -s checkwinsize
 
 # If set, the pattern "**" used in a pathname expansion context will
@@ -86,11 +97,6 @@ fi
 
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
-
-# some more ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
