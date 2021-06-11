@@ -38,16 +38,21 @@ set cursorline
 
 "color molokai
 "let g:molokai_original=1
+
 set t_Co=256
-colorscheme onehalfdark
-let g:airline_theme='onehalfdark'
+
+"colorscheme onehalfdark
+"let g:airline_theme='onehalfdark'
+
+colorscheme apprentice
+
 
 " plugin manager
 call plug#begin('~/.vim/plugged')
 
 "Plug 'gabrielelana/vim-markdown'
 "Plug 'markvincze/panda-vim'
-Plug 'sonph/onehalf', { 'rtp':'vim' }
+"Plug 'sonph/onehalf', { 'rtp':'vim' }
 
 call plug#end()
 
