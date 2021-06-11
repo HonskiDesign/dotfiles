@@ -27,13 +27,29 @@ set ttyfast
 " better command-line completion
 set wildmenu
 
+" turn on cursor line
+set cursorline
 
 
 "################# Plugins #################
 
+
+" plugin options
+
+"color molokai
+"let g:molokai_original=1
+set t_Co=256
+colorscheme onehalfdark
+let g:airline_theme='onehalfdark'
+
+" plugin manager
 call plug#begin('~/.vim/plugged')
 
 "Plug 'gabrielelana/vim-markdown'
+"Plug 'markvincze/panda-vim'
+Plug 'sonph/onehalf', { 'rtp':'vin' }
+
+
 
 call plug#end()
 
