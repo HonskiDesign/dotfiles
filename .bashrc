@@ -12,7 +12,7 @@ alias la='ls -A'
 alias l='ls -CF'
 alias chmox='chmod +x'
 alias dot='cd $DOTFILES'
-alias scri'cd $SCRIPTS'
+alias scripts='cd $SCRIPTS'
 
 # --------------------------- bash defaults ----------------------------
 # If not running interactively, don't do anything
