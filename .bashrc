@@ -7,12 +7,12 @@ export SCRIPTS="$HOME/scripts"
 
 
 # ------------------------------- aliases ------------------------------
-alias ll='ls -alF'
-alias la='ls -A'
+alias ll='ls -l'
+alias lla='ls -laF'
 alias l='ls -CF'
 alias chmox='chmod +x'
 alias dot='cd $DOTFILES'
-alias scripts='cd $SCRIPTS'
+alias scr='cd $SCRIPTS'
 
 # --------------------------- bash defaults ----------------------------
 # If not running interactively, don't do anything
