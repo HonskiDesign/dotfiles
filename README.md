@@ -6,4 +6,5 @@ I found the makesymlink.sh script on smalleycreative.com and tailored it to my n
 - Makes a directory for the old\_dotfiles in ~
 - Copy the current dotfiles into ~/old\_dotfiles/ 
 - create symlinks to dotfiles from repo.
+
 Note: The dotfiles directory where the script is run, needs to be a child of the ~ directory (ex. ~/dotfiles).
