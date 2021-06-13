@@ -17,6 +17,7 @@ alias l='ls -CF'
 alias chmox='chmod +x'
 alias dot='cd $DOTFILES'
 alias scr='cd $SCRIPTS'
+alias todo='grep -sw "TODO" *'
 
 # --------------------------- bash defaults ----------------------------
 # If not running interactively, don't do anything
