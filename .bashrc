@@ -18,6 +18,8 @@ alias chmox='chmod +x'
 alias dot='cd $DOTFILES'
 alias scr='cd $SCRIPTS'
 alias todo='grep -sw "TODO" *'
+alias vimrc='vim ~/.vimrc'
+alias bashrc='vim ~/.bashrc'
 
 # --------------------------- bash defaults ----------------------------
 # If not running interactively, don't do anything
