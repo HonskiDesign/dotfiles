@@ -1,5 +1,9 @@
 # Honski Design bashrc
 
+# ------------------------ personal settings ---------------------------
+export VISUAL=vim
+export EDITOR="$VISUAL"
+
 # ------------------------ environment variables -----------------------
 
 export DOTFILES="$HOME/dotfiles"
