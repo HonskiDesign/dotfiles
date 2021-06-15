@@ -20,6 +20,7 @@ alias scr='cd $SCRIPTS'
 alias todo='grep -sw "TODO" *'
 alias vimrc='vim ~/.vimrc'
 alias bashrc='vim ~/.bashrc'
+alias python='python3'
 
 # --------------------------- bash defaults ----------------------------
 # If not running interactively, don't do anything
