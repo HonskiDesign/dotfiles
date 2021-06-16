@@ -3,6 +3,7 @@
 # ------------------------ personal settings ---------------------------
 export VISUAL=vim
 export EDITOR="$VISUAL"
+set -o vi # FORCE ME TO BE GOOD
 
 # ------------------------ environment variables -----------------------
 
