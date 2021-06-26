@@ -2,6 +2,7 @@
 " ----------------------------- General Settings ----------------------
 
 set nocompatible
+set visualbell
 
 " activate line numbers
 set number
@@ -20,7 +21,7 @@ set smarttab
 syntax enable
 
 " enough for line numbers + gutter within 80 standard
-set textwidth=72
+"set textwidth=72
 
 " faster scrolling
 set ttyfast
