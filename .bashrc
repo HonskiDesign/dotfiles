@@ -4,6 +4,7 @@
 export VISUAL=vim
 export EDITOR="$VISUAL"
 set -o vi # FORCE ME TO BE GOOD
+set bell-style none
 
 # ------------------------ environment variables -----------------------
 
