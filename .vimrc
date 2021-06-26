@@ -2,7 +2,7 @@
 " ----------------------------- General Settings ----------------------
 
 set nocompatible
-set visualbell
+set novisualbell
 
 " activate line numbers
 set number
