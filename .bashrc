@@ -10,15 +10,16 @@ set bell-style none
 
 export DOTFILES="$HOME/dotfiles"
 export SCRIPTS="$HOME/scripts"
-
+export TESTSCRIPTS="$HOME/testing"
 
 # ------------------------------- aliases ------------------------------
-alias ll='ls -l'
-alias lla='ls -laF'
-alias l='ls -CF'
+alias ll='ls -l --color=auto'
+alias lla='ls -laF --color=auto'
+alias l='ls -CF --color=auto'
 alias chmox='chmod +x'
 alias dot='cd $DOTFILES'
 alias scr='cd $SCRIPTS'
+alias tst='cd $TESTSCRIPTS'
 alias todo='grep -sw "TODO" *'
 alias vimrc='vim ~/.vimrc'
 alias bashrc='vim ~/.bashrc'
